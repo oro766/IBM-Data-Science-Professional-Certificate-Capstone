@@ -21,8 +21,8 @@
 ## Introduction
 
 ### Project Background and Context:
-- SpaceX's Falcon 9 rocket stands out for its ability to significantly reduce launch costs by reusing its first stage.      Based on its website SpaceX's Falcon 9 rocket launch  has a price tag of 62 million USD compared to upwards of 165        million USD from other providers.
-- Determining whether the first stage will land, helps calculating the cost of a launch. This information can be used if    an alternate company intends to bid against space X for a rocket launch.
+- SpaceX's Falcon 9 rocket stands out for its ability to significantly reduce launch costs by reusing its first stage. Based on its website SpaceX's Falcon 9 rocket launch  has a price tag of 62 million USD compared to upwards of 165 million USD from other providers.
+- Determining whether the first stage will land, helps calculating the cost of a launch. This information can be used if an alternate company intends to bid against space X for a rocket launch.
 
 ### Key Questions to Address:
 - Which launch site exhibits the highest success rate in terms of successful Falcon 9 first stage landings? 
@@ -36,8 +36,8 @@
     - Request to the SpaceX API<br>
     - Clean the requested data<br>
 
-**Input Data:**     https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/API_call_spacex_api.json
-**Output Data:**    https://github.com/oro766/IBM-Data-Science-Professional-Certificate-Capstone/blob/1b244b5e61b5fcdb754a2065f7db0235dccf2814/dataset_part_1.csv
+**Input Data:** https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/API_call_spacex_api.json <br>
+**Output Data:** https://github.com/oro766/IBM-Data-Science-Professional-Certificate-Capstone/blob/1b244b5e61b5fcdb754a2065f7db0235dccf2814/dataset_part_1.csv<br>
 
 ### Lab 2: Data Collection with Web Scraping:
 **Description:** 
