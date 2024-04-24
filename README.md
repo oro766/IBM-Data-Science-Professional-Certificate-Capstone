@@ -36,8 +36,8 @@
     - Request to the SpaceX API<br>
     - Clean the requested data<br>
 
-**Input Data:** https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/API_call_spacex_api.json <br>
-**Output Data:** https://github.com/oro766/IBM-Data-Science-Professional-Certificate-Capstone/blob/1b244b5e61b5fcdb754a2065f7db0235dccf2814/dataset_part_1.csv<br>
+**Input Data:** [Spacex API (static JSON file)](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/API_call_spacex_api.json) <br>
+**Output Data:** [Dataset Part 1 (CSV file)](https://github.com/oro766/IBM-Data-Science-Professional-Certificate-Capstone/blob/1b244b5e61b5fcdb754a2065f7db0235dccf2814/dataset_part_1.csv<br>)
 
 ### Lab 2: Data Collection with Web Scraping:
 **Description:** 
