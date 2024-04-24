@@ -1,5 +1,6 @@
 # IBM-Data-Science-Professional-Certificate-Capstone
 
+
 ## Executive Summary
 
 ### Summary of Methodologies:
@@ -18,6 +19,7 @@
     - Booster version "FT" was most successful, while "v1.1" was least successful.
     - Launch site KSC LC-39A generated the highest successful outcomes.
 
+
 ## Introduction
 
 ### Project Background and Context:
@@ -29,52 +31,68 @@
 - What factors (payload, orbit type, flight no, etc.) contribute to the highest and lowest outcome success rates? 
 - Which machine learning models best predict if the first stage will land given the available data?
 
+
 ## Methodology
 
 ### Lab 1: Collecting the data:
-**Description:**<br> 
-    - Request to the SpaceX API<br>
-    - Clean the requested data<br>
+**Description:** [Jupyter Notbook](https://github.com/oro766/IBM-Data-Science-Professional-Certificate-Capstone/blob/6565629ebf0c663fd25a4322425d0e816a27a794/jupyter-labs-spacex-data-collection-api_oo.ipynb)<br> 
+- Request to the SpaceX API<br>
+- Clean the requested data<br>
 
 **Input Data:** [Spacex API (static JSON file)](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/API_call_spacex_api.json) <br>
 **Output Data:** [Dataset Part 1 (CSV file)](https://github.com/oro766/IBM-Data-Science-Professional-Certificate-Capstone/blob/1b244b5e61b5fcdb754a2065f7db0235dccf2814/dataset_part_1.csv<br>)
 
 ### Lab 2: Data Collection with Web Scraping:
-**Description:** 
+**Description:** [Jupyter Notbook](https://github.com/oro766/IBM-Data-Science-Professional-Certificate-Capstone/blob/6565629ebf0c663fd25a4322425d0e816a27a794/jupyter-labs-webscraping_oo.ipynb)<br> 
+- Extract a Falcon 9 launch records HTML table from Wikipedia<br>
+- Parse the table and convert it into a Pandas data frame<br>
 
-Input Data
-Output Data
+**Input Data:** [Wikipedia (static HTML file)](https://en.wikipedia.org/w/index.php?title=List_of_Falcon_9_and_Falcon_Heavy_launches&oldid=1027686922") <br>
+**Output Data:** [Dataset - SpaceX Webscraping (CSV file)](https://github.com/oro766/IBM-Data-Science-Professional-Certificate-Capstone/blob/6565629ebf0c663fd25a4322425d0e816a27a794/spacex_web_scraped.csv)
 
 ### Lab 3: Data wrangling: 
-**Description:**
+**Description:** [Jupyter Notbook](https://github.com/oro766/IBM-Data-Science-Professional-Certificate-Capstone/blob/6565629ebf0c663fd25a4322425d0e816a27a794/labs-jupyter-spacex-Data%20wrangling_oo.ipynb)<br> 
+- Exploratory Data Analysis<br>
+- Determine Training Labels<br>
 
-Input Data
-Output Data
+**Input Data:** [Dataset Part 1 (CSV file)](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/dataset_part_1.csv")) <br>
+**Output Data:** [Dataset Part 2 (CSV file)](https://github.com/oro766/IBM-Data-Science-Professional-Certificate-Capstone/blob/6565629ebf0c663fd25a4322425d0e816a27a794/dataset_part_2.csv)
 
 ### Lab 4: EDA with SQL: 
-Description
-Input Data
-Output Data
+**Description:** [Jupyter Notbook](https://github.com/oro766/IBM-Data-Science-Professional-Certificate-Capstone/blob/6565629ebf0c663fd25a4322425d0e816a27a794/jupyter-labs-eda-sql-coursera_sqllite_oo.ipynb)<br> 
+- Understand the Spacex DataSet
+- Load the dataset into the corresponding table in a Db2 database
+- Execute SQL queries to answer assignment questions
+
+**Input Data:** [Spacex (CSV file)](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/labs/module_2/data/Spacex.csv") <br>
 
 ### Lab 5: EDA with Visualization:
-Description
-Input Data
-Output Data
+**Description:** [Jupyter Notbook](https://github.com/oro766/IBM-Data-Science-Professional-Certificate-Capstone/blob/6565629ebf0c663fd25a4322425d0e816a27a794/jupyter-labs-eda-dataviz.ipynb.jupyterlite_oo.ipynb)<br> 
+- Exploratory Data Analysis
+- Preparing Data Feature Engineering
+
+**Input Data:** [Dataset Part 2 (CSV file)](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/dataset_part_2.csv") <br>
+**Output Data:** [Dataset Part 3 (CSV file)](https://github.com/oro766/IBM-Data-Science-Professional-Certificate-Capstone/blob/6565629ebf0c663fd25a4322425d0e816a27a794/dataset_part_3.csv)
 
 ### Lab 6: Interactive Visual Analytics with Folium:
-Description
-Input Data
-Output Data
+**Description:** [Jupyter Notbook]()<br> 
+
+**Input Data:** [Spacex API (static JSON file)]() <br>
+**Output Data:** [Dataset Part 1 (CSV file)]()
 
 ### Lab 7: Interactive Dashboard with Ploty Dash: 
-Description
-Input Data
-Output Data
+**Description:** [Jupyter Notbook]()<br> 
+
+
+**Input Data:** [Spacex API (static JSON file)]() <br>
+**Output Data:** [Dataset Part 1 (CSV file)]()
 
 ### Lab 8: Machine Learning Prediction:
-Description
-Input Data
-Output Data
+**Description:** [Jupyter Notbook]()<br> 
+
+
+**Input Data:** [Spacex API (static JSON file)]() <br>
+**Output Data:** [Dataset Part 1 (CSV file)]()
 
 ## Conclusion
 - The data set 90 rows × 83 columns is rather small which was considered by the selection of machine learning (ML) models.
