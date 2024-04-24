@@ -18,7 +18,7 @@
     - Booster version "FT" was most successful, while "v1.1" was least successful.
     - Launch site KSC LC-39A generated the highest successful outcomes.
 
-## Executive Summary
+## Introduction
 
 ### Project Background and Context:
 - SpaceX's Falcon 9 rocket stands out for its ability to significantly reduce launch costs by reusing its first stage.      Based on its website SpaceX's Falcon 9 rocket launch  has a price tag of 62 million USD compared to upwards of 165        million USD from other providers.
@@ -29,5 +29,57 @@
 - What factors (payload, orbit type, flight no, etc.) contribute to the highest and lowest outcome success rates? 
 - Which machine learning models best predict if the first stage will land given the available data?
 
+## Methodology
 
+### Lab 1: Collecting the data:
+Description
+Input Data
+Output Data
+
+### Lab 2: Data Collection with Web Scraping:
+Description
+Input Data
+Output Data
+
+### Lab 3: Data wrangling: 
+Description
+Input Data
+Output Data
+
+### Lab 4: EDA with SQL: 
+Description
+Input Data
+Output Data
+
+### Lab 5: EDA with Visualization:
+Description
+Input Data
+Output Data
+
+### Lab 6: Interactive Visual Analytics with Folium:
+Description
+Input Data
+Output Data
+
+### Lab 7: Interactive Dashboard with Ploty Dash: 
+Description
+Input Data
+Output Data
+
+### Lab 8: Machine Learning Prediction:
+Description
+Input Data
+Output Data
+
+## Conclusion
+- The data set 90 rows × 83 columns is rather small which was considered by the selection of machine learning (ML) models.
+- The ML models with the best predictive outcomes are:
+    - Logistic Regression (logreg_cv)
+    - Support Vector Machine (SVM_cv)
+    - K Nearest Neighbors (KNN_cv)
+- The accuracy of the previously mentioned models are at 0.85 on the training and 0.83 on the test data.
+- Further considerations:
+    - Payload mass between 1,952kg and 5,300kg have the most positive outcomes.
+    - FT is the most successful booster version and v1.1 is the least successful one. 
+    - The launch site Kennedy Space Center Launch Complex 39A (KSC LC-39A) generated the highest numbers of successful          outcomes.
 
