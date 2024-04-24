@@ -21,6 +21,7 @@
 
 
 ## Introduction
+![SpaceX REST calls](https://github.com/oro766/IBM-Data-Science-Professional-Certificate-Capstone/assets/131335559/5816eb58-f810-494c-a994-d03dac6e3686)
 
 ### Project Background and Context:
 - SpaceX's Falcon 9 rocket stands out for its ability to significantly reduce launch costs by reusing its first stage. Based on its website SpaceX's Falcon 9 rocket launch  has a price tag of 62 million USD compared to upwards of 165 million USD from other providers.
@@ -117,3 +118,5 @@ Find best Hyperparameter for SVM, Classification Trees and Logistic Regression<b
     - FT is the most successful booster version and v1.1 is the least successful one. 
     - The launch site Kennedy Space Center Launch Complex 39A (KSC LC-39A) generated the highest numbers of successful          outcomes.
 
+## Appendix
+PowerPoint Presentation as PDF file: [ds-capstone-template-coursera - oo.pdf](https://github.com/oro766/IBM-Data-Science-Professional-Certificate-Capstone/files/15089650/ds-capstone-template-coursera.-.oo.pdf)
