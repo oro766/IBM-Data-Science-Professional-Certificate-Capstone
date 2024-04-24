@@ -1,4 +1,5 @@
 # IBM-Data-Science-Professional-Certificate-Capstone
+![687474~1](https://github.com/oro766/IBM-Data-Science-Professional-Certificate-Capstone/assets/131335559/87812876-ae8f-4a42-8351-63cacf266f1e)
 
 
 ## Executive Summary
