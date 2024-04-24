@@ -120,4 +120,5 @@ Find best Hyperparameter for SVM, Classification Trees and Logistic Regression<b
     - The launch site Kennedy Space Center Launch Complex 39A (KSC LC-39A) generated the highest numbers of successful          outcomes.
 
 ## Appendix
-PowerPoint Presentation as PDF file: [ds-capstone-template-coursera - oo.pdf](https://github.com/oro766/IBM-Data-Science-Professional-Certificate-Capstone/files/15089650/ds-capstone-template-coursera.-.oo.pdf)
+PowerPoint Presentation as PDF file: [ds-capstone-template-coursera - oo.pdf](https://github.com/oro766/IBM-Data-Science-Professional-Certificate-Capstone/files/15090156/ds-capstone-template-coursera.-.oo.pdf)
+
