@@ -36,24 +36,24 @@
 
 ### Lab 1: Collecting the data:
 **Description:** [Jupyter Notbook](https://github.com/oro766/IBM-Data-Science-Professional-Certificate-Capstone/blob/6565629ebf0c663fd25a4322425d0e816a27a794/jupyter-labs-spacex-data-collection-api_oo.ipynb)<br> 
-- Request to the SpaceX API<br>
-- Clean the requested data<br>
+- Request to the SpaceX API
+- Clean the requested data
 
 **Input Data:** [Spacex API (static JSON file)](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/API_call_spacex_api.json) <br>
 **Output Data:** [Dataset Part 1 (CSV file)](https://github.com/oro766/IBM-Data-Science-Professional-Certificate-Capstone/blob/1b244b5e61b5fcdb754a2065f7db0235dccf2814/dataset_part_1.csv<br>)
 
 ### Lab 2: Data Collection with Web Scraping:
 **Description:** [Jupyter Notbook](https://github.com/oro766/IBM-Data-Science-Professional-Certificate-Capstone/blob/6565629ebf0c663fd25a4322425d0e816a27a794/jupyter-labs-webscraping_oo.ipynb)<br> 
-- Extract a Falcon 9 launch records HTML table from Wikipedia<br>
-- Parse the table and convert it into a Pandas data frame<br>
+- Extract a Falcon 9 launch records HTML table from Wikipedia
+- Parse the table and convert it into a Pandas data frame
 
 **Input Data:** [Wikipedia (static HTML file)](https://en.wikipedia.org/w/index.php?title=List_of_Falcon_9_and_Falcon_Heavy_launches&oldid=1027686922") <br>
 **Output Data:** [Dataset - SpaceX Webscraping (CSV file)](https://github.com/oro766/IBM-Data-Science-Professional-Certificate-Capstone/blob/6565629ebf0c663fd25a4322425d0e816a27a794/spacex_web_scraped.csv)
 
 ### Lab 3: Data wrangling: 
 **Description:** [Jupyter Notbook](https://github.com/oro766/IBM-Data-Science-Professional-Certificate-Capstone/blob/6565629ebf0c663fd25a4322425d0e816a27a794/labs-jupyter-spacex-Data%20wrangling_oo.ipynb)<br> 
-- Exploratory Data Analysis<br>
-- Determine Training Labels<br>
+- Exploratory Data Analysis
+- Determine Training Labels
 
 **Input Data:** [Dataset Part 1 (CSV file)](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/dataset_part_1.csv")) <br>
 **Output Data:** [Dataset Part 2 (CSV file)](https://github.com/oro766/IBM-Data-Science-Professional-Certificate-Capstone/blob/6565629ebf0c663fd25a4322425d0e816a27a794/dataset_part_2.csv)
@@ -75,24 +75,35 @@
 **Output Data:** [Dataset Part 3 (CSV file)](https://github.com/oro766/IBM-Data-Science-Professional-Certificate-Capstone/blob/6565629ebf0c663fd25a4322425d0e816a27a794/dataset_part_3.csv)
 
 ### Lab 6: Interactive Visual Analytics with Folium:
-**Description:** [Jupyter Notbook]()<br> 
+**Description:** [Jupyter Notbook](https://github.com/oro766/IBM-Data-Science-Professional-Certificate-Capstone/blob/8f61965396d0c8e0c5c3830123da43eec7a0467a/lab_jupyter_launch_site_location.jupyterlite_oo.ipynb)<br> 
+- Mark all launch sites on a map
+- Mark the success/failed launches for each site on the map
+- Calculate the distances between a launch site to its proximities
 
-**Input Data:** [Spacex API (static JSON file)]() <br>
-**Output Data:** [Dataset Part 1 (CSV file)]()
+**Input Data:** [Spacex Launch Geo Data Set (CSV file)](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/spacex_launch_geo.csv') <br>
 
 ### Lab 7: Interactive Dashboard with Ploty Dash: 
-**Description:** [Jupyter Notbook]()<br> 
+**Description:** [Python Code](https://github.com/oro766/IBM-Data-Science-Professional-Certificate-Capstone/blob/8f61965396d0c8e0c5c3830123da43eec7a0467a/spacex_dash_app.py)<br> 
+- Launch Site Drop-down Input Component
+- Callback function to render success-pie-chart based on selected site dropdown
+- Range Slider to Select Payload
+- Callback function to render the success-payload-scatter-chartscatter plot
 
-
-**Input Data:** [Spacex API (static JSON file)]() <br>
-**Output Data:** [Dataset Part 1 (CSV file)]()
+**Input Data:** [Spacex Launch Dash Data Set (CSV file)](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/spacex_launch_dash.csv) <br>
 
 ### Lab 8: Machine Learning Prediction:
-**Description:** [Jupyter Notbook]()<br> 
+**Description:** [Jupyter Notbook](https://github.com/oro766/IBM-Data-Science-Professional-Certificate-Capstone/blob/8f61965396d0c8e0c5c3830123da43eec7a0467a/SpaceX_Machine_Learning_Prediction_Part_5.jupyterlite_oo.ipynb)<br> 
+Perform exploratory Data Analysis and determine Training Labels<br>
+- create a column for the class
+- Standardize the data
+- Split into training data and test data
+
+Find best Hyperparameter for SVM, Classification Trees and Logistic Regression<br>
+- Find the method performs best using test data
 
 
-**Input Data:** [Spacex API (static JSON file)]() <br>
-**Output Data:** [Dataset Part 1 (CSV file)]()
+**Input Data:** [Dataset Part 2 (CSV file](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/dataset_part_2.csv") & [Dataset Part 3 (CSV file)](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/dataset_part_3.csv')<br>
+
 
 ## Conclusion
 - The data set 90 rows × 83 columns is rather small which was considered by the selection of machine learning (ML) models.
