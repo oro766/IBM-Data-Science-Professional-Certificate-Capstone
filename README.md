@@ -21,7 +21,6 @@
 
 
 ## Introduction
-![SpaceX REST calls](https://github.com/oro766/IBM-Data-Science-Professional-Certificate-Capstone/assets/131335559/5816eb58-f810-494c-a994-d03dac6e3686)
 
 ### Project Background and Context:
 - SpaceX's Falcon 9 rocket stands out for its ability to significantly reduce launch costs by reusing its first stage. Based on its website SpaceX's Falcon 9 rocket launch  has a price tag of 62 million USD compared to upwards of 165 million USD from other providers.
@@ -34,6 +33,7 @@
 
 
 ## Methodology
+![SpaceX REST calls](https://github.com/oro766/IBM-Data-Science-Professional-Certificate-Capstone/assets/131335559/d03ea6f3-64f0-4b8d-9db3-ee0adb5f9078)
 
 ### Lab 1: Collecting the data:
 **Description:** [Jupyter Notbook](https://github.com/oro766/IBM-Data-Science-Professional-Certificate-Capstone/blob/6565629ebf0c663fd25a4322425d0e816a27a794/jupyter-labs-spacex-data-collection-api_oo.ipynb)<br> 
